@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.main-section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+}
+
+article {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.article-1 {
+    background-color: #FFD700;
+}
+
+.article-2 {
+    background-image: url('https://via.placeholder.com/1200x400');
+    background-size: cover;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.links-section {
+    background-color: #87CEFA;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.links-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.links-section a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.catalog-link {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.catalog-link a {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.catalog-header {
+    background-color: #4682B4;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+.products-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.price {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.catalog-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
